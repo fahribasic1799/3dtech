@@ -11,5 +11,5 @@ $message = $_POST['message'];
 //menginput data ke database
 mysqli_query($koneksi,"insert into contact2 values('','$name','$email','$subject','$message')");
 
-//mengalihkan halaman kembali ke index.php
-header("location:../index.php");
+//mengalihkan halaman kembali ke index.html
+header("location:../index.html");
